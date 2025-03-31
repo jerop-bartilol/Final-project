@@ -1,0 +1,247 @@
+/*Home*/
+*{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+/*navbar*/
+.navbar {
+    position: fixed;  /* Keeps navbar at the top */
+    top: 0;
+    left: 0;
+    width: 98%;
+    z-index: 1000;  /* Ensures navbar stays above all elements */
+    height: 60px;  /* Adjusted height */
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0;
+    padding-left: 10%;
+
+}
+
+/* Navigation List */
+.ul3 {
+    display: flex;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0 auto;  
+    padding: 0;
+    gap: 20px;
+    padding-left: 30%;
+}
+
+/* Navbar Links */
+.ul3 a {
+    text-decoration: none;
+    color: teal;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Hover Effect */
+.ul3 a:hover {
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+.icon{
+    width: 40%;
+    border-radius: 50px;
+    margin: 0;
+}
+.icon1{
+    width: 10%;
+}
+/*Hero-section*/
+.h1-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sp1{
+    color:teal;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.home1{
+   position: relative;
+   display: inline-block;
+   width: 100%;
+   height: 70vh;
+   display: block;
+   filter: brightness(30%);
+}
+.h1-3{
+    color: teal;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hero1{
+    width: 30%;
+    box-shadow: 0px 4px 10px teal;
+    height: 20vh;
+    padding-top: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    
+}
+.hero :hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px teal;
+}
+.hero-img{
+    width: 15%;
+}
+.p1{
+    color: grey;
+   font-size: 20px;
+}
+.hero{
+    display: flex;
+    padding-left: 5%;
+    gap: 60px;
+    margin-top: 20px;
+    margin-top: 5%;
+}
+/*gallery*/
+.gallery{
+    margin-left: 5%;
+}
+.gallery1{
+    margin-top: 10%;
+    display: flex;
+    gap: 5%;
+}
+.gallery2{
+    margin-top: 5%;
+    display: flex;
+    gap: 5%;
+}
+.h1-4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: teal;
+    text-align: center;
+    margin-top: 10%;
+}
+.sp2{
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.gals{
+    height: 40vh;
+    filter: brightness(80%);
+    border-radius: 10%;
+    box-shadow: 0px 4px 10px teal;
+    transition: transform 0.3s ease;
+
+    
+}
+.galss{
+    height: 40vh;
+    filter: brightness(80%);
+    border-radius: 10%;
+    box-shadow: 0px 4px 10px teal;
+    width: 400px;
+    transition: transform 0.3s ease;
+
+   
+}
+.p2{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 50%;
+}
+.b1{
+    color: #fff;
+    margin-top: 5%;
+    font-size: 20px;
+    width: 50%;
+    height: 6vh;
+    background-color:  teal;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.galsss{
+    height: 40vh;
+    filter: brightness(80%);
+    border-radius: 10%;
+    box-shadow: 0px 4px 10px teal;
+    width: 90%;
+    transition: transform 0.3s ease;
+}
+.galsss :hover{
+    box-shadow: 0 5px 12px rgb(108, 108, 242);
+    transform: translateY(-5px);
+}
+/*partners*/
+.partners{
+    margin-top: 10%;
+}
+.h3-2{
+    color: teal;
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.h3-3{
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5%;
+}
+.icon2{
+    width: 60%;
+}
+.logo1{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 15%;
+
+
+}
+/*bottom-footer*/
+.bottom-footer{
+    margin-bottom: 30px;
+    color:  teal;
+    border-top: 2px solid teal;
+    padding: 20px;
+    margin-top: 90px;
+}
+.h3-1{
+    font-size: 19px;
+}
+.footer3{
+    display: flex;
+    gap: 15%;
+    padding-left: 10%;
+    font-size: 15px;
+}
+.footer3 a {
+    color:teal ;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.icon1{
+    width: 10%;
+    padding-right: 5px;
+}

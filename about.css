@@ -1,0 +1,234 @@
+/*Home*/
+*{
+    padding: 0;
+    margin: 0;
+    background-color:white;
+}
+
+
+/*navbar*/
+.navbar {
+    position: fixed;  /* Keeps navbar at the top */
+    top: 0;
+    left: 0;
+    width: 98%;
+    z-index: 1000;  /* Ensures navbar stays above all elements */
+    height: 60px;  /* Adjusted height */
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0;
+    padding-left: 10%;
+
+}
+
+/* Navigation List */
+.ul3 {
+    display: flex;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0 auto;  
+    padding: 0;
+    gap: 20px;
+    padding-left: 30%;
+    
+}
+
+/* Navbar Links */
+.ul3 a {
+    text-decoration: none;
+    color: teal;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Hover Effect */
+.ul3 a:hover {
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.icon1{
+    width: 10%;
+}
+.logo{
+    display: flex;
+}
+.h4-1{
+    color: teal;
+    font-size: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: auto;
+}
+.icon{
+    width: 40%;
+    border-radius: 50px;
+}
+/*about1*/
+.about1{
+    position: relative;
+   display: inline-block;
+   width: 100%;
+   height: 80vh;
+   display: block;
+   filter: brightness(80%);
+   margin-top: 20px;
+   
+}
+.h1-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: teal;
+    font-size: 55px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.views{
+    margin-top: 5%;
+    display: flex;
+    padding-left: 2%;
+    gap: 6%;
+}
+.view1{
+    box-shadow: 0px 4px 10px teal ;
+    width: 30%;
+}
+.views :hover{
+    box-shadow: 0px 4px 10px teal;
+    transform: translateY(-5px);
+}
+.icon1{
+    width: 15%;
+}
+.h3-1{
+    color:  teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.p1{
+    color: grey;
+   
+}
+.h2-1{
+    color: teal;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.About{
+    display: flex;
+    color: grey;
+    margin-left: 10%;
+    margin-top: 10%;
+    gap: 5%;
+    height: 50vh;
+   
+}
+.About1-1{
+    border-radius: 10px;
+}
+.p2{
+    width: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+/*team*/
+.h1-2{
+    color: teal;
+    margin-top: 8%;
+    text-align: center;
+    font-size: 50px;
+}
+.Team{
+   padding-left: 25%;
+   gap: 10%;
+}
+.team1{
+    width: 30%;
+    height: 40vh;
+    margin-top:5% ;
+    border-radius: 10px;
+    gap: 10%;
+}
+.teams{
+    gap: 10%;
+}
+.h3-2{
+    position: absolute;
+  
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: teal;
+    font-size: 15px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.h3-3{
+    position: absolute;
+  
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: teal;
+    font-size: 15px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.h3-4{
+    position: absolute;
+  
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: teal;
+    font-size: 15px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*bottom-footer*/
+.bottom-footer{
+    margin-bottom: 30px;
+    color:  teal;
+    border-top: 2px solid teal;
+    padding: 20px;
+    margin-top: 90px;
+}
+.h3-1{
+    font-size: 19px;
+}
+.footer3{
+    display: flex;
+    gap: 15%;
+    padding-left: 10%;
+    font-size: 15px;
+}
+.footer3 a {
+    color:teal ;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.icon1{
+    width: 10%;
+    padding-right: 5px;
+}
