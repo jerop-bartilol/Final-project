@@ -254,6 +254,7 @@
     border-top: 2px solid teal;
     padding: 20px;
     margin-top: 10%;
+    color: black;
 
 }
 .h3-1{
@@ -278,7 +279,7 @@ ul{
 }
 /*Bottom-footer*/
 .Bottom-footer{
-    background-color: rgb(52, 194, 194);
+    background-color: teal;
     margin-top: 10%;
     padding-bottom: 5%;
 }
