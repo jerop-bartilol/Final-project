@@ -1,3 +1,10 @@
+/*Home*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /*navbar*/
 .navbar {
     position: fixed;  /* Keeps navbar at the top */
@@ -11,7 +18,7 @@
     background-color: white;
     border-radius: 20px;
     padding: 0;
-    padding-left: 30%;
+    padding-left: 50%;
 
 }
 
@@ -20,10 +27,10 @@
     display: flex;
     list-style: none;
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     margin: 0 auto;  
     padding: 0;
-    gap: 20px;
+    gap: 30px;
     padding-left: 30%;
 }
 
@@ -32,7 +39,6 @@
     text-decoration: none;
     color: teal;
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px 15px;
     border-radius: 5px;
 }
@@ -63,7 +69,7 @@
     padding: 10px 20px;
     border-radius: 5px;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+   
 }
 .sp1{
     color:teal;
@@ -83,7 +89,7 @@
     text-transform: uppercase;
     text-align: center;
     margin-top: 5%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .hero1{
     width: 30%;
@@ -127,7 +133,6 @@
     gap: 5%;
 }
 .h1-4{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     text-transform: uppercase;
     color: teal;
@@ -136,7 +141,6 @@
 }
 .sp2{
     color: teal;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .gals{
     height: 40vh;
@@ -154,12 +158,10 @@
     box-shadow: 0px 4px 10px teal;
     width: 400px;
     transition: transform 0.3s ease;
-
-   
 }
 .p2{
     color: gray;
-    font-family: sans-serif;
+   
     font-size: 20px;
     width: 50%;
 }
@@ -193,12 +195,10 @@
     color: teal;
     text-align: center;
     font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .h3-3{
     font-size: 30px;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 5%;
 }
 .icon2{
