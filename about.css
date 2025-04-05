@@ -81,10 +81,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: teal;
+    color: white;
     font-size: 55px;
     font-weight: bold;
-    background: rgba(0, 0, 0, 0.5);
     padding: 10px 20px;
     border-radius: 5px;
     text-align: center;
@@ -99,7 +98,7 @@
     box-shadow: 0px 4px 10px teal ;
     width: 30%;
 }
-.views :hover{
+.view1:hover{
     box-shadow: 0px 4px 10px teal;
     transform: translateY(-5px);
 }
@@ -258,6 +257,7 @@
 .card-list .card-link :hover .card-button{
     color: #fff;
     background: #5372F0;
+    transition: 0.4s ease;
 }
 /*Bottom-footer*/
 .Bottom-footer{
