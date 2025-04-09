@@ -302,11 +302,26 @@
     .b1{
         width: 300px;
     }
-    .partners{
-        
-    }
+    
     .h3-2{
-        font-size: 30px;
+        font-size: 40px;
     }
-
+    .Bottom-footer{
+        padding: 0;
+        width: 260%;
+    }
+    .h1-5{
+       font-size: 30px;
+    }
+    .h2-1{
+        font-size: 10px;
+    }
+    .ul-footer{
+        font-size: 10px;
+    }
+    .footer-button{
+        margin-right: 20%;
+       font-size: 20px;
+       width: 900px;
+    }
 }
