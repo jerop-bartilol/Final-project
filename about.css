@@ -65,6 +65,35 @@
     width: 40%;
     border-radius: 50px;
 }
+            
+                /*Nav statement*/
+
+@media (max-width:400px ){
+    .navbar {
+        width: 30%;
+        padding-left: 10px;
+       
+    }
+    .ul3{
+        display: flex;
+    }
+    .ul3 a {
+        border-radius: 50px;
+    }
+    .ul3 a:hover{
+        transform: none;
+    }
+    .icon1{
+        font-size: 1.5rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .icon{
+        gap: 15px;
+    }
+
+}
 /*about1*/
 .about1{
     position: relative;

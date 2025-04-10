@@ -101,3 +101,8 @@ textarea{
     background-color: whitesmoke;
     border-radius: 20px;
 }
+@media{
+    .navbar{
+        font-size: 2rem;
+    }
+}

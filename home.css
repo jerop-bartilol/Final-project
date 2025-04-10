@@ -18,7 +18,7 @@
     background-color: white;
     border-radius: 20px;
     padding: 0;
-    padding-left: 40%;
+    padding-left: 20%;
 
 }
 
@@ -31,7 +31,7 @@
     margin: 0 auto;  
     padding: 0;
     gap: 30px;
-    padding-left: 30%;
+  
 }
 
 /* Navbar Links */
@@ -147,7 +147,7 @@
     border-radius: 10%;
     box-shadow: 0px 4px 10px teal;
     transition: transform 0.3s ease;
-
+    width: ;
     
 }
 .galss{
@@ -208,6 +208,7 @@
     margin-top: 5%;
     margin-left: 15%;
 }
+
 /*Bottom-footer*/
 .Bottom-footer{
     background-color:teal;
@@ -251,20 +252,24 @@
 }
 @media (max-width:400px ){
     .navbar{
-        padding-left:1px;
-       
+        width: 60%;
+        position: fixed;
+    }
+    .ul3{
+        padding-left: 1px;
     }
     .h1-2{
-        font-size: 30px;
-        top: 40%;
-        left: 115%;
+        font-size: 10px;
+        top: 30%;
+        left: 60%;
     }
     .home1{
-        width: 900px;
+        width: 350px;
+        height: 50vh;
     }
     .h1-3{
        text-align: left;
-       font-size: 40px;
+       font-size: 20px;
        margin-left: 10%;
        
     }
@@ -274,7 +279,7 @@
     }
     .hero1{
         height: 40vh;
-        width: 700px;
+        width: 200px;
        margin-left: 8%;
     }
     .p1{
@@ -283,7 +288,7 @@
     .h1-4{
      
      text-align: left;
-     font-size: 40px;
+     font-size: 30px;
      margin-left: 10%;
     
     }
@@ -294,13 +299,16 @@
         display: flex;
         flex-direction: column;
         gap: 25px;
+
     }
     .p2{
         width: 100%;
         font-size: 15px;
+        text-align: center;
     }
     .b1{
-        width: 300px;
+        width: 200px;
+       margin-left: 10%;
     }
     
     .h3-2{
@@ -308,10 +316,11 @@
     }
     .Bottom-footer{
         padding: 0;
-        width: 260%;
+        width: 100%;
+       
     }
     .h1-5{
-       font-size: 30px;
+       font-size: 15px;
     }
     .h2-1{
         font-size: 10px;
@@ -320,8 +329,20 @@
         font-size: 10px;
     }
     .footer-button{
-        margin-right: 20%;
-       font-size: 20px;
-       width: 900px;
+       color: teal;
+       border: none;
+    }
+    .gals{
+        width: 90%;
+    }
+    .gallery2{
+        display: flex;
+        flex-direction: column;
+        gap: 15%;
+    }
+    .topper-footer{
+        padding-left: 5%;
+        gap: 20px;
+        
     }
 }
