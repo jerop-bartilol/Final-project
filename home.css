@@ -125,6 +125,7 @@
     margin-top: 10%;
     display: flex;
     gap: 5%;
+    
 }
 .gallery2{
     margin-top: 5%;
@@ -147,7 +148,7 @@
     border-radius: 10%;
     box-shadow: 0px 4px 10px teal;
     transition: transform 0.3s ease;
-    width: ;
+  
     
 }
 .galss{
@@ -332,7 +333,7 @@
        color: teal;
        border: none;
     }
-    .gals{
+    .galss{
         width: 90%;
     }
     .gallery2{
