@@ -4,15 +4,49 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+.navbar{
+    display: block;
+    height: 5vh;
+    padding-top: 10px;
+    background-color: rgb(60, 59, 59);
+    list-style-type: none;
+}
 
-/*navbar*/
+.nav-links{
+    display: flex;
+    position: fixed;
+    list-style-type: none;
+    gap: 3rem;
+    z-index: 1000;
+    left: 50%;
+    font-size: 17px;
+}
+.nav-links a{
+    color: teal;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.nav-links a :hover{
+    color: white;
+    background-color: teal;
+    width: 80px;
+    padding-left: 20px;
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.nav-button{
+   left: 50%;
+}
+
+/*navbar
 .navbar {
-    position: fixed;  /* Keeps navbar at the top */
+    position: fixed;  
     top: 0;
     left: 0;
     width: 98%;
-    z-index: 1000;  /* Ensures navbar stays above all elements */
-    height: 60px;  /* Adjusted height */
+    z-index: 1000;  
+    height: 60px;  
     display: flex;
     align-items: center;
     background-color: white;
@@ -20,9 +54,9 @@
     padding: 0;
     padding-left: 20%;
 
-}
+}*/
 
-/* Navigation List */
+/* Navigation List 
 .ul3 {
     display: flex;
     list-style: none;
@@ -32,18 +66,18 @@
     padding: 0;
     gap: 30px;
   
-}
+}*/
 
-/* Navbar Links */
+/* Navbar Links 
 .ul3 a {
     text-decoration: none;
     color: teal;
     font-size: 20px;
     padding: 10px 15px;
     border-radius: 5px;
-}
+}*/
 
-/* Hover Effect */
+/* Hover Effect 
 .ul3 a:hover {
     color: black;
     transition: 0.3s ease-in-out;
@@ -55,7 +89,8 @@
 }
 .icon1{
     width: 10%;
-}
+}*/
+
 /*Hero-section*/
 .h1-2{
     position: absolute;
@@ -81,7 +116,7 @@
    height: 70vh;
    display: block;
    filter: brightness(30%);
-}
+}   
 .h1-3{
     color: teal;
     font-size: 50px;
