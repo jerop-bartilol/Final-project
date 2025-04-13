@@ -289,6 +289,18 @@
     font-weight: 200;
 }
 @media(max-width:400px){
+    .nav-links{
+        position: fixed;
+        font-size: 10px;
+        left: 5%;
+        gap: 1rem;
+        position: fixed;
+       
+       }
+       .nav-button{
+        font-size: 10px;
+        width: 50px;
+       }
     .about1{
         width: 320px;
         height: 40vh;

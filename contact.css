@@ -310,14 +310,26 @@ ul{
     font-weight: 200;
 }
 @media(max-width:400px){
+    .nav-links{
+        position: fixed;
+        font-size: 10px;
+        left: 5%;
+        gap: 1rem;
+        position: fixed;
+       
+       }
+       .nav-button{
+        font-size: 10px;
+        width: 50px;
+       }
     .contact1{
         width: 350px;
-        height: 50vh;
+        height: 40vh;
     }
     .h1-1{
         font-size: 15px;
-        top: 30%;
-        left: 60%;
+        top: 20%;
+        left: 50%;
     }
     .location1{
         display: flex;

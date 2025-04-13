@@ -51,7 +51,6 @@
     background-color: teal;
     height: 5vh;
 }
-
 /*Hero-section*/
 .h1-2{
     position: absolute;
@@ -248,21 +247,29 @@
     font-weight: 200;
 }
 @media (max-width:400px ){
-    .navbar{
-        width: 60%;
-        position: fixed;
-    }
+   .nav-links{
+    position: fixed;
+    font-size: 10px;
+    left: 5%;
+    gap: 1rem;
+    position: fixed;
+   
+   }
+   .nav-button{
+    font-size: 10px;
+    width: 50px;
+   }
     .ul3{
         padding-left: 1px;
     }
     .h1-2{
         font-size: 10px;
-        top: 30%;
-        left: 60%;
+        top: 20%;
+        left: 50%;
     }
     .home1{
         width: 350px;
-        height: 50vh;
+        height: 40vh;
     }
     .h1-3{
        text-align: left;
@@ -300,8 +307,8 @@
     }
     .p2{
         width: 100%;
-        font-size: 15px;
-        text-align: center;
+        font-size: 12px;
+        text-align: left;
     }
     .b1{
         width: 200px;
@@ -328,6 +335,9 @@
     .footer-button{
        color: teal;
        border: none;
+    }
+    .gals{
+        width: 250px;
     }
     .galss{
         width: 90%;
