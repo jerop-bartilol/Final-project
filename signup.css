@@ -55,16 +55,17 @@
 /*Signup*/
 .loginpage{
     width: 100%;
-    height: 100vh;
+    height: 150vh;
+    filter: brightness(30%);
 }
 .words{
     position: absolute;
-    top: 30%;  
-    left: 10%;
+    top: 20%;  
+    left: 34%;
     background-color: rgb(255, 255, 255);
-    height: 50vh;
-    width: 20%;
-    padding-left: 2%;
+    height: 100vh;
+    width: 30%;
+    padding-left: 5%;
     padding-top: 3%;
     border-radius: 30px;
     box-shadow: 0 20px 10px rgba(0, 0, 0, 0.5);
@@ -72,17 +73,76 @@
 .l1{
  font-size: 30px;
  font-weight: 600;
+padding-left: 30%;
+padding-bottom: 5%;
 }
-input{
+.name input  {
     background-color: whitesmoke;
     border-radius: 20px;
     width: 80%;
-    height: 3vh;
+    height: 5vh;
 }
-label{
+.email input{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 80%;
+    height: 5vh;
+}
+.number input{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 80%;
+    height: 5vh;
+}
+.school input{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 80%;
+    height: 5vh;
+}
+.name label{
     font-size: 15px;
+    padding-left: 2%;
+}
+.email label{
+    font-size: 15px;
+    padding-left: 2%;
+}
+.number label{
+    font-size: 15px;
+    padding-left: 2%;
+}
+.school label{
+    font-size: 15px;
+    padding-left: 2%;
 }
 textarea{
     background-color: whitesmoke;
     border-radius: 20px;
+    width: 80%;
+    height: 10vh;
+}
+.student label{
+    font-size: 20px;
+    font-weight: 500;
+}
+.teacher label{
+    font-size: 20px;
+    font-weight: 500;
+}
+.parent label{
+    font-size: 20px;
+    font-weight: 500;
+}
+.p2{
+    font-size: 15px;
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.button1{
+    width: 90%;
+    height: 5vh;
+    border-radius: 8px;
+    font-size: 15px;
 }
