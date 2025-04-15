@@ -318,6 +318,16 @@ ul{
         position: fixed;
        
        }
+       .nav-links a{
+        font-size: 10px;
+        width: 20%;
+        transition: color 0.3s ease;
+       }
+       .nav-links a :hover{
+        font-size: 10px;
+        width: 100%;
+        padding: 0;
+       }
        .nav-button{
         font-size: 10px;
         width: 50px;

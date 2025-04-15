@@ -255,6 +255,16 @@
     position: fixed;
    
    }
+   .nav-links a{
+    font-size: 10px;
+    width: 20%;
+    transition: color 0.3s ease;
+   }
+   .nav-links a :hover{
+    font-size: 10px;
+    width: 100%;
+    padding: 0;
+   }
    .nav-button{
     font-size: 10px;
     width: 50px;
@@ -269,7 +279,7 @@
     }
     .home1{
         width: 350px;
-        height: 40vh;
+        height: 30vh;
     }
     .h1-3{
        text-align: left;
