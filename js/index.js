@@ -16,6 +16,9 @@ form.addEventListener("submit" ,(e) =>{
     if(Name.value === ""|| Name.value == null){
         messages.push("Name is required");
     }
+    if (!/^\d+$/.test(number.value)) {
+            messages.push("Phone Number must contain only digits");
+        }
     if(number.value.length <= 6){
         messages.push("Phone Number must be longer than 6 characters");
     }
