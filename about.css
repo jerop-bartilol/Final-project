@@ -48,11 +48,6 @@
     color: teal;
     transition: color 0.3s ease;
 }
-.nav-button :hover{
-    color: white;
-    background-color: teal;
-    height: 5vh;
-}
 /*about1*/
 .about1{
     position: relative;
@@ -312,7 +307,7 @@
         width: 50px;
        }
     .about1{
-        width: 320px;
+        
         height: 40vh;
     }
     .h1-1{

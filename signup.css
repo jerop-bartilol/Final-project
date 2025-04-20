@@ -47,11 +47,6 @@
     color: teal;
     transition: color 0.3s ease;
 }
-.nav-button :hover{
-    color: white;
-    background-color: teal;
-    height: 5vh;
-}
 /*Signup*/
 .loginpage{
     width: 100%;
