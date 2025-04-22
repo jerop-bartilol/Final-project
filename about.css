@@ -405,3 +405,37 @@
     
 }
 }
+@media (max-width:800px ){
+    .nav-links{
+        left: 10%;
+    }
+    .about1{
+        height: 50vh;
+    }
+    .footer-button{
+        width: 50%;
+    }
+    .h1-5{
+        font-size: 30px;
+    }
+    .h2-1{
+        font-size: 20px;
+    }
+    .ul-footer{
+        font-size: 15px;
+    }
+    .About{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30%;
+    }
+    .About2{
+        padding-left: 10%;
+    }
+    .team1{
+        height: 20vh;
+        width: 30%;
+    }
+    
+
+}
